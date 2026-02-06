@@ -1,0 +1,16 @@
+//Things to Review after finishing the video:
+  //  Creating a program and printing a line of code
+  // using #include to tell C++ what to use in code
+    //creating and assigning variables as int, double, or any others, as well as const.
+    //Changing and understanding variables using mathematical expressions (+ - / * % --x ++x x++ x--)
+    //Printing  multiple things on the same line ("x = 10") and printing multiple things on different lines (X= 10), (y = 20), ending the line for printing the other parts.
+    // C in and c out: asking the user in the consol for an input/output: doing that for multiple values
+// setting different values to different byte sizes: bool, char, long, float, double, auto
+// using auto fr simplicity and adding a letter at the end of numbers to declare its type
+// Brace Initialization (using for int and other values to stop the program from compiling an error.)
+// using colors represented by numbers, hexidecimal values/numbers, and binary
+// Narrowing: how to use and when not to use 
+// Getting a random number: rand (singular random number, un changing once present), srand (changes after each use)
+// include TIME for useful parts of code
+// create a random dice program
+// use short to save memory in small #'s

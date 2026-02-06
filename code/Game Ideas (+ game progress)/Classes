@@ -1,0 +1,103 @@
+Classes:
+ex:
+Class Example(enhareted attributes from other classes that you want to allow the use of within this class):
+    def __init__(self, attributes that ALL items in the class will have):
+        self.attribute1 = attribute1
+        self.attribute2 = attribute2
+        etc
+    def ExampleFunctionWithinClass(self, contained, function specific attributes):
+        Details for the function inside here
+        
+    end the function
+    
+    More functions:
+Example with actual code (including parent functions, enheritence, functions, classes, calling classes, etc.) Classes do not have init but for more complicated code it would be included
+Code:
+class Pet:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    def show(self):
+        print(f"I am {self.name} and I am {self.age} years old")
+
+class Cat(Pet):
+    def speak(self):
+        print("Meow")
+
+class Dog(Pet):
+    def speak(self):
+        print("Bark")
+
+p = Pet("Tim", 19)
+p.show()
+c = Cat("Bill", 34)
+c.show()
+
+
+output:
+I am Tim and I am 19 years old
+I am 34 years old
+
+
+EXAMPLES TO DO: Book
+
+Attributes: title, author, pages
+
+Methods: display info, check if long (e.g., > 300 pages)
+
+Student
+
+Attributes: name, age, grade
+
+Methods: get grade, check if passing
+
+Car
+
+Attributes: make, model, year, speed
+
+Methods: accelerate, brake, honk
+
+BankAccount
+
+Attributes: account holder, balance
+
+Methods: deposit, withdraw, show balance
+
+Rectangle
+
+Attributes: width, height
+
+Methods: calculate area, perimeter, is_square
+
+🟡 Moderate
+
+InventoryItem
+
+Attributes: name, quantity, price
+
+Methods: restock, sell, total value
+
+Timer
+
+Attributes: start time, end time
+
+Methods: start, stop, get elapsed time
+
+Movie
+
+Attributes: title, genre, rating, duration
+
+Methods: is_family_friendly, display info
+
+OnlineOrder
+
+Attributes: customer, items, total price
+
+Methods: add item, remove item, checkout
+
+Library
+
+Attributes: list of books
+
+Methods: add book, remove book, search by title
